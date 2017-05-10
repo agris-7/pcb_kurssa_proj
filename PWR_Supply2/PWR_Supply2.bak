@@ -1,0 +1,213 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 6
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Sheet
+S 1250 1250 1350 950 
+U 59135F43
+F0 "Sheet59135F42" 60
+F1 "220V to 24V.sch" 60
+F2 "+24V" O R 2600 1500 60 
+F3 "GND" O R 2600 1800 60 
+$EndSheet
+$Sheet
+S 2450 2700 1100 700 
+U 59136D1E
+F0 "Sheet59136D1D" 60
+F1 "24 V to 12V.sch" 60
+F2 "+12" O R 3550 2900 60 
+F3 "+24V" I L 2450 2900 60 
+F4 "GND" O R 3550 3200 60 
+$EndSheet
+$Sheet
+S 4300 2700 1100 700 
+U 59137268
+F0 "Sheet59137267" 60
+F1 "24 V to 9 V .sch" 60
+F2 "GND" I L 4300 3200 60 
+F3 "`+24V" I L 4300 2900 60 
+F4 "+9V" O R 5400 2900 60 
+$EndSheet
+$Sheet
+S 5850 2700 1250 700 
+U 59138B3E
+F0 "Sheet59138B3D" 60
+F1 "24 V to 5V.sch" 60
+F2 "+24V" I L 5850 2900 60 
+F3 "GND" I R 7100 3200 60 
+F4 "+5V" O R 7100 2900 60 
+$EndSheet
+$Sheet
+S 7650 2700 1350 700 
+U 591390BA
+F0 "Sheet591390B9" 60
+F1 "24 V to 3,3 V.sch" 60
+F2 "+24V" I L 7650 2900 60 
+F3 "GND" I L 7650 3200 60 
+F4 "+3,3V" O R 9000 2900 60 
+$EndSheet
+$Comp
+L CONN_01X05 J?
+U 1 1 5913D04E
+P 2700 4500
+F 0 "J?" H 2700 4800 50  0000 C CNN
+F 1 "CONN_01X05" V 2800 4500 50  0000 C CNN
+F 2 "" H 2700 4500 50  0001 C CNN
+F 3 "" H 2700 4500 50  0001 C CNN
+	1    2700 4500
+	0    -1   1    0   
+$EndComp
+Entry Wire Line
+	3700 4000 3800 4100
+Entry Wire Line
+	5550 4000 5650 4100
+Entry Wire Line
+	9000 4000 9100 4100
+Entry Wire Line
+	7250 4000 7350 4100
+Wire Wire Line
+	2600 1500 2800 1500
+Wire Wire Line
+	2800 1500 2800 2450
+Wire Wire Line
+	2300 2450 7500 2450
+Wire Wire Line
+	2300 2450 2300 2900
+Wire Wire Line
+	2300 2900 2450 2900
+Wire Wire Line
+	4200 2450 4200 2900
+Wire Wire Line
+	4200 2900 4300 2900
+Connection ~ 2800 2450
+Wire Wire Line
+	5700 2450 5700 2900
+Wire Wire Line
+	5700 2900 5850 2900
+Connection ~ 4200 2450
+Wire Wire Line
+	7500 2450 7500 2900
+Wire Wire Line
+	7500 2900 7650 2900
+Connection ~ 5700 2450
+Wire Wire Line
+	2650 1800 7400 1800
+Wire Wire Line
+	3850 1800 3850 3200
+Wire Wire Line
+	3550 3200 4300 3200
+Connection ~ 3850 3200
+Wire Wire Line
+	7400 1800 7400 3200
+Connection ~ 3850 1800
+Connection ~ 7400 3200
+Wire Bus Line
+	2400 4100 9100 4100
+Wire Wire Line
+	3700 2900 3700 4000
+Wire Wire Line
+	3700 2900 3550 2900
+Wire Wire Line
+	5550 2900 5550 4000
+Wire Wire Line
+	5550 2900 5400 2900
+Wire Wire Line
+	9000 4000 9000 3550
+Wire Wire Line
+	9000 3550 9150 3550
+Wire Wire Line
+	9150 3550 9150 2900
+Wire Wire Line
+	9150 2900 9000 2900
+Wire Wire Line
+	7100 3200 7650 3200
+Entry Wire Line
+	7550 4000 7650 4100
+Wire Wire Line
+	7250 2900 7250 4000
+Wire Wire Line
+	7250 2900 7100 2900
+Wire Wire Line
+	7550 4000 7550 3200
+Connection ~ 7550 3200
+Entry Wire Line
+	2400 4100 2500 4200
+Entry Wire Line
+	2500 4100 2600 4200
+Entry Wire Line
+	2600 4100 2700 4200
+Entry Wire Line
+	2700 4100 2800 4200
+Entry Wire Line
+	2800 4100 2900 4200
+Wire Wire Line
+	2500 4300 2500 4200
+Wire Wire Line
+	2600 4300 2600 4200
+Wire Wire Line
+	2700 4300 2700 4200
+Wire Wire Line
+	2800 4300 2800 4200
+Wire Wire Line
+	2900 4300 2900 4200
+Text Label 3750 4000 0    60   ~ 0
+A1
+Text Label 5600 4000 0    60   ~ 0
+A2
+Text Label 7300 4000 0    60   ~ 0
+A3
+Text Label 9050 4000 0    60   ~ 0
+A4
+Text Label 7600 4000 0    60   ~ 0
+GND
+Text Label 2500 4300 1    60   ~ 0
+A1
+Text Label 2600 4300 1    60   ~ 0
+A2
+Text Label 2700 4300 1    60   ~ 0
+A3
+Text Label 2800 4300 1    60   ~ 0
+A4
+Text Label 2900 4350 1    60   ~ 0
+GND
+$EndSCHEMATC
