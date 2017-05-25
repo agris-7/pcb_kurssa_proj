@@ -1,0 +1,249 @@
+## Footprint report - date 05/25/17 10:02:44
+## Created by Pcbnew version kicad 4.0.6
+## Unit = mm, Angle = deg.
+
+$BeginDESCRIPTION
+
+$BOARD
+upper_left_corner 135.789999 46.889999
+lower_right_corner 199.490001 92.810001
+$EndBOARD
+
+$MODULE "C1"
+reference "C1"
+value "22uF"
+footprint "Capacitors_THT:CP_Radial_Tantal_D6.0mm_P5.00mm"
+attribut none
+position 160.020000 76.200000  orientation 270.00
+layer front
+$PAD "1"
+Shape Rect Layer both
+position  0.000000  0.000000  size  1.600000  1.600000  orientation 0.00
+drill  0.800000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Circle Layer both
+position  5.000000  0.000000  size  1.600000  1.600000  orientation 0.00
+drill  0.800000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  C1
+
+$MODULE "C2"
+reference "C2"
+value "47uF"
+footprint "Capacitors_THT:CP_Radial_Tantal_D5.0mm_P5.00mm"
+attribut none
+position 149.860000 71.120000  orientation 0.00
+layer front
+$PAD "1"
+Shape Rect Layer both
+position  0.000000  0.000000  size  1.600000  1.600000  orientation 0.00
+drill  0.800000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Circle Layer both
+position  5.000000  0.000000  size  1.600000  1.600000  orientation 0.00
+drill  0.800000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  C2
+
+$MODULE "C3"
+reference "C3"
+value "22uF"
+footprint "Capacitors_THT:CP_Radial_Tantal_D6.0mm_P5.00mm"
+attribut none
+position 140.970000 62.230000  orientation 0.00
+layer front
+$PAD "1"
+Shape Rect Layer both
+position  0.000000  0.000000  size  1.600000  1.600000  orientation 0.00
+drill  0.800000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Circle Layer both
+position  5.000000  0.000000  size  1.600000  1.600000  orientation 0.00
+drill  0.800000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  C3
+
+$MODULE "J1"
+reference "J1"
+value "Signal_In"
+footprint "Connectors_Phoenix:PhoenixContact_GMSTBA-G_02x7.50mm_Angled"
+attribut none
+position 185.420000 69.850000  orientation 90.00
+layer front
+$PAD "1"
+Shape Rect Layer both
+position  0.000000  0.000000  size  2.100000  3.600000  orientation 0.00
+drill  1.400000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Oval Layer both
+position  7.500000  0.000000  size  2.100000  3.600000  orientation 0.00
+drill  1.400000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  J1
+
+$MODULE "J2"
+reference "J2"
+value "Signal_Out"
+footprint "Connectors_Phoenix:PhoenixContact_GMSTBA-G_02x7.62mm_Angled"
+attribut none
+position 170.180000 59.690000  orientation 0.00
+layer front
+$PAD "1"
+Shape Rect Layer both
+position  0.000000  0.000000  size  2.100000  3.600000  orientation 0.00
+drill  1.400000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Oval Layer both
+position  7.620000  0.000000  size  2.100000  3.600000  orientation 0.00
+drill  1.400000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  J2
+
+$MODULE "Q1"
+reference "Q1"
+value "BC548"
+footprint "TO_SOT_Packages_THT:TO-92_Inline_Narrow_Oval"
+attribut none
+position 142.240000 71.120000  orientation 0.00
+layer front
+$PAD "2"
+Shape Oval Layer both
+position  1.270000  0.000000  size  0.900000  1.500000  orientation 180.00
+drill  0.600000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "3"
+Shape Oval Layer both
+position  2.540000  0.000000  size  0.900000  1.500000  orientation 180.00
+drill  0.600000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "1"
+Shape Rect Layer both
+position  0.000000  0.000000  size  0.900000  1.500000  orientation 180.00
+drill  0.600000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  Q1
+
+$MODULE "R1"
+reference "R1"
+value "22k"
+footprint "Resistors_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P15.24mm_Horizontal"
+attribut none
+position 160.020000 53.340000  orientation 0.00
+layer front
+$PAD "1"
+Shape Circle Layer both
+position  0.000000  0.000000  size  1.600000  1.600000  orientation 0.00
+drill  0.800000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Oval Layer both
+position 15.240000  0.000000  size  1.600000  1.600000  orientation 0.00
+drill  0.800000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  R1
+
+$MODULE "R2"
+reference "R2"
+value "6,8k"
+footprint "Resistors_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P15.24mm_Horizontal"
+attribut none
+position 179.070000 53.340000  orientation 0.00
+layer front
+$PAD "1"
+Shape Circle Layer both
+position  0.000000  0.000000  size  1.600000  1.600000  orientation 0.00
+drill  0.800000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Oval Layer both
+position 15.240000  0.000000  size  1.600000  1.600000  orientation 0.00
+drill  0.800000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  R2
+
+$MODULE "R3"
+reference "R3"
+value "4,7k"
+footprint "Resistors_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P15.24mm_Horizontal"
+attribut none
+position 156.210000 53.340000  orientation 180.00
+layer front
+$PAD "1"
+Shape Circle Layer both
+position  0.000000  0.000000  size  1.600000  1.600000  orientation 0.00
+drill  0.800000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Oval Layer both
+position 15.240000  0.000000  size  1.600000  1.600000  orientation 0.00
+drill  0.800000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  R3
+
+$MODULE "R4"
+reference "R4"
+value "1.8k"
+footprint "Resistors_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P15.24mm_Horizontal"
+attribut none
+position 148.590000 62.230000  orientation 0.00
+layer front
+$PAD "1"
+Shape Circle Layer both
+position  0.000000  0.000000  size  1.600000  1.600000  orientation 0.00
+drill  0.800000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Oval Layer both
+position 15.240000  0.000000  size  1.600000  1.600000  orientation 0.00
+drill  0.800000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  R4
+
+$MODULE "J3"
+reference "J3"
+value "barosana"
+footprint "Connectors_Phoenix:PhoenixContact_GMSTBA-G_02x7.62mm_Angled"
+attribut none
+position 184.150000 78.740000  orientation 0.00
+layer front
+$PAD "1"
+Shape Rect Layer both
+position  0.000000  0.000000  size  2.100000  3.600000  orientation 0.00
+drill  1.400000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Oval Layer both
+position  7.620000  0.000000  size  2.100000  3.600000  orientation 0.00
+drill  1.400000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  J3
+
+$EndDESCRIPTION

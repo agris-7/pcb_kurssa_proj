@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:/Users/Agris/Documents/Datorizetprojekt/pcb_kurssa_proj/Single_tranzistor_AMP/Single_tranzistor_AMP.sch</source>
+    <date>2017.05.25. 9:40:27</date>
+    <tool>Eeschema 4.0.6</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Single_tranzistor_AMP.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="Q1">
+      <value>BC548</value>
+      <footprint>TO_SOT_Packages_THT:TO-92_Inline_Narrow_Oval</footprint>
+      <libsource lib="transistors" part="BC548"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58DBE3B9</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>22k</value>
+      <footprint>Resistors_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P15.24mm_Horizontal</footprint>
+      <datasheet>http://www.tme.eu/lv/details/1_2w-22k/oglekla-rezistori-tht-12w/royal-ohm/cfr0s2j0223a10/</datasheet>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58DBE515</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>1.8k</value>
+      <footprint>Resistors_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P15.24mm_Horizontal</footprint>
+      <datasheet>http://www.tme.eu/lv/details/cf1_2w-1k8/oglekla-rezistori-tht-12w/sr-passives/</datasheet>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58DBE538</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>4,7k</value>
+      <footprint>Resistors_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P15.24mm_Horizontal</footprint>
+      <datasheet>http://www.tme.eu/lv/details/1_2w-4k7/oglekla-rezistori-tht-12w/royal-ohm/cfr0s2j0472a10/</datasheet>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58DBE5C0</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>6,8k</value>
+      <footprint>Resistors_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P15.24mm_Horizontal</footprint>
+      <datasheet>http://www.tme.eu/lv/details/cf1_2w-6k8/oglekla-rezistori-tht-12w/sr-passives/</datasheet>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58DBE70F</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>22uF</value>
+      <footprint>Capacitors_THT:CP_Radial_Tantal_D6.0mm_P5.00mm</footprint>
+      <datasheet>http://www.tme.eu/lv/details/ce-22_100p/elektrolitiskie-kondensatori-tht-85c/samwha/sd2a226m6l011pc359/</datasheet>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58DBE7A6</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>22uF</value>
+      <footprint>Capacitors_THT:CP_Radial_Tantal_D6.0mm_P5.00mm</footprint>
+      <datasheet>http://www.tme.eu/lv/details/ce-22_100p/elektrolitiskie-kondensatori-tht-85c/samwha/sd2a226m6l011pc359/</datasheet>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58DBE894</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>47uF</value>
+      <footprint>Capacitors_THT:CP_Radial_Tantal_D5.0mm_P5.00mm</footprint>
+      <datasheet>http://www.tme.eu/lv/details/ce-47_16p/elektrolitiskie-kondensatori-tht-85c/samwha/</datasheet>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58DBEA8C</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>Signal_In</value>
+      <footprint>Connectors_Phoenix:PhoenixContact_GMSTBA-G_02x7.50mm_Angled</footprint>
+      <datasheet>http://www.tme.eu/lv/details/pc4_2-g-7.62/iespilesanas-listes-izdrukai/phoenix-contact/pc-4-2-g-762-1804797/</datasheet>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58DBEC11</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>Signal_Out</value>
+      <footprint>Connectors_Phoenix:PhoenixContact_GMSTBA-G_02x7.62mm_Angled</footprint>
+      <datasheet>http://www.tme.eu/lv/details/pc4_2-g-7.62/iespilesanas-listes-izdrukai/phoenix-contact/pc-4-2-g-762-1804797/</datasheet>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58DBF438</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>barosana</value>
+      <footprint>Connectors_Phoenix:PhoenixContact_GMSTBA-G_02x7.62mm_Angled</footprint>
+      <datasheet>http://www.tme.eu/lv/details/pc4_2-g-7.62/iespilesanas-listes-izdrukai/phoenix-contact/pc-4-2-g-762-1804797/</datasheet>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>591D3DD6</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="transistors" part="BC547">
+      <aliases>
+        <alias>BC546</alias>
+        <alias>BC548</alias>
+        <alias>BC549</alias>
+        <alias>BC550</alias>
+      </aliases>
+      <description>45V Vce, 0.1A Ic, NPN, Small Signal Transistor, TO-92</description>
+      <docs>http://www.fairchildsemi.com/ds/BC/BC547.pdf</docs>
+      <footprints>
+        <fp>TO-92*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">BC547</field>
+        <field name="Footprint">TO_SOT_Packages_THT:TO-92_Molded_Narrow</field>
+      </fields>
+      <pins>
+        <pin num="1" name="C" type="passive"/>
+        <pin num="2" name="B" type="input"/>
+        <pin num="3" name="E" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="C">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X02">
+      <description>Connector, single row, 01x02, pin header</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X*</fp>
+        <fp>Pin_Header_Angled_1X*</fp>
+        <fp>Socket_Strip_Straight_1X*</fp>
+        <fp>Socket_Strip_Angled_1X*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">CONN_01X02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="conn">
+      <uri>C:\Program Files\KiCad\share\kicad\library\conn.lib</uri>
+    </library>
+    <library logical="device">
+      <uri>C:\Program Files\KiCad\share\kicad\library\device.lib</uri>
+    </library>
+    <library logical="transistors">
+      <uri>C:\Program Files\KiCad\share\kicad\library\transistors.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(C3-Pad2)">
+      <node ref="C3" pin="2"/>
+      <node ref="J2" pin="1"/>
+    </net>
+    <net code="2" name="Net-(C2-Pad1)">
+      <node ref="R4" pin="1"/>
+      <node ref="C2" pin="1"/>
+      <node ref="Q1" pin="3"/>
+    </net>
+    <net code="3" name="Net-(C3-Pad1)">
+      <node ref="Q1" pin="1"/>
+      <node ref="C3" pin="1"/>
+      <node ref="R3" pin="2"/>
+    </net>
+    <net code="4" name="Net-(R1-Pad2)">
+      <node ref="R2" pin="1"/>
+      <node ref="R1" pin="2"/>
+    </net>
+    <net code="5" name="+12V">
+      <node ref="R1" pin="1"/>
+      <node ref="J3" pin="1"/>
+      <node ref="R3" pin="1"/>
+    </net>
+    <net code="6" name="GND">
+      <node ref="J2" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="J1" pin="2"/>
+      <node ref="R2" pin="2"/>
+      <node ref="J3" pin="2"/>
+      <node ref="R4" pin="2"/>
+    </net>
+    <net code="7" name="Net-(C1-Pad2)">
+      <node ref="C1" pin="2"/>
+      <node ref="Q1" pin="2"/>
+    </net>
+    <net code="8" name="Net-(C1-Pad1)">
+      <node ref="J1" pin="1"/>
+      <node ref="C1" pin="1"/>
+    </net>
+  </nets>
+</export>

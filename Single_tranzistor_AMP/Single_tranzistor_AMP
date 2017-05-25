@@ -1,0 +1,21 @@
+Source,C:/Users/Agris/Documents/Datorizetprojekt/pcb_kurssa_proj/Single_tranzistor_AMP/Single_tranzistor_AMP.sch
+Kicad Rev,Eeschema 4.0.6
+Generated Date,2017.05.25. 9:19:42
+
+Title,Not Set
+Company,Not Set
+Revision,Not Set
+Date Issue,Not Set
+
+Reference,Value,Library,Library Ref
+Q1,BC548,transistors,BC548
+R1,22k,device,R
+R4,1.8k,device,R
+R3,4,7k,device,R
+R2,6,8k,device,R
+C3,22uF,device,C
+C1,22uF,device,C
+C2,47uF,device,C
+J1,Signal_In,conn,CONN_01X02
+J2,Signal_Out,conn,CONN_01X02
+J3,barosana,conn,CONN_01X02

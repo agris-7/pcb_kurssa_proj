@@ -28,6 +28,7 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:Single_tranzistor_AMP-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -266,4 +267,41 @@ Connection ~ 6250 4500
 Wire Wire Line
 	6000 2450 6000 2700
 Connection ~ 6000 2700
+$Comp
+L CONN_01X02 J3
+U 1 1 591D3DD6
+P 7000 2450
+F 0 "J3" H 7000 2600 50  0000 C CNN
+F 1 "barosana" V 7100 2450 50  0000 C CNN
+F 2 "Connectors_Phoenix:PhoenixContact_GMSTBA-G_02x7.62mm_Angled" H 7000 2450 50  0001 C CNN
+F 3 "http://www.tme.eu/lv/details/pc4_2-g-7.62/iespilesanas-listes-izdrukai/phoenix-contact/pc-4-2-g-762-1804797/" H 7000 2450 50  0001 C CNN
+	1    7000 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR07
+U 1 1 591D409E
+P 6800 2600
+F 0 "#PWR07" H 6800 2350 50  0001 C CNN
+F 1 "GND" H 6800 2450 50  0000 C CNN
+F 2 "" H 6800 2600 50  0001 C CNN
+F 3 "" H 6800 2600 50  0001 C CNN
+	1    6800 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6800 2250 6800 2400
+Wire Wire Line
+	6800 2600 6800 2500
+$Comp
+L +12V #PWR08
+U 1 1 591D56F2
+P 6800 2250
+F 0 "#PWR08" H 6800 2100 50  0001 C CNN
+F 1 "+12V" H 6800 2390 50  0000 C CNN
+F 2 "" H 6800 2250 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/670/PJ-102A-524195.pdf" H 6800 2250 50  0001 C CNN
+	1    6800 2250
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
