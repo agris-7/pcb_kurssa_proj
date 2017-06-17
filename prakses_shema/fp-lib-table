@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name Connectors_Harwin)(type KiCad)(uri "$(KISYSMOD)/Connectors_Harwin.pretty")(options "")(descr ""))
+  (lib (name Conector)(type KiCad)(uri "$(KIPRJMOD)/Conector.pretty")(options "")(descr ""))
+)
